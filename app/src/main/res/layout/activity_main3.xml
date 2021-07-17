@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/ggl"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="207dp"
+        android:src="@drawable/google" />
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="96dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/ggl"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="-84dp"
+        android:src="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/insta"
+        android:layout_width="89dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="281dp"
+        android:src="@drawable/instagram" />
+
+    <ImageView
+        android:id="@+id/link"
+        android:layout_width="71dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="283dp"
+        android:src="@drawable/linkedin" />
+
+</RelativeLayout>
